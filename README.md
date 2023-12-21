@@ -5,6 +5,7 @@ In this repository you can find the Terraform scripts to automate the deployment
 Both the scripts deploy the configuration portraited in the file VPP_Scenario.pdf. At a glance, the configuration files create 1 VPC or VNet, to contain the resources, 3 different subnets (one with IPv6 addresses and another one used only for management purposes), route tables, firewalls rules and a virtual machine in which VPP should be deployed. In both cases, in order to get more automation, it is suggested to create a snapshot of the VM with VPP already installed. Every snapshot comes with an unique ID, which could be used inside the proper field of the vm_resource block. Doing this procedure, the VM created will have already VPP installed.
 
 In case, here you can find the procedures to deploy VPP inside AWS/Azure.
+We will push a deploy script for GCP *VERY* soon.
 
 In order to make the scripts work, firstly we suggest to create a folder which will contain the script, and afterwards inside this folder, you should type:
 
